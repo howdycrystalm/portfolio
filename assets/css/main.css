@@ -1704,7 +1704,14 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.65;
+		margin: .25em 0 .25em 0;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
@@ -3013,7 +3020,7 @@
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 60%;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3166,7 +3173,7 @@
 			padding: 0 1.5em;
 		}
 
-			#header .logo strong {
+			/*#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3185,7 +3192,7 @@
 
 			#header .logo:active strong {
 				background-color: #53e3fb;
-			}
+			}*/
 
 		#header nav {
 			display: -moz-flex;
@@ -3407,7 +3414,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("http://i.imgur.com/sIGD3.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3507,7 +3514,7 @@
 					font-size: 0.7em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					/*text-transform: uppercase;*/
 				}
 
 		#banner.major {
@@ -3986,3 +3993,17 @@
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+/*===================custom code======================*/
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.custom-logo {
+	height: 130px;
+}
