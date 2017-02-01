@@ -3635,7 +3635,7 @@
 
 			#main > *:first-child {
 				border-top: 0;
-				height: 100vh; /*may need to remove*/
+				/*height: 100vh;*/
 			}
 
 			#main > * > .inner {
@@ -4019,4 +4019,10 @@
 .avatar {
 	max-width: 120px;
 	border-radius: 50%;
+}
+
+.osprey-landing-img {
+	display: flex;
+	justify-content: center;
+	max-width: 1000px;
 }
