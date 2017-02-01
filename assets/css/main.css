@@ -4007,3 +4007,7 @@
 .custom-logo {
 	height: 130px;
 }
+
+.avatar {
+	max-width: 120px;
+}
