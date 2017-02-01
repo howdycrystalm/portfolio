@@ -1704,7 +1704,14 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.65;
+		margin: .25em 0 .25em 0;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
@@ -3013,7 +3020,7 @@
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 60%;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3166,7 +3173,7 @@
 			padding: 0 1.5em;
 		}
 
-			#header .logo strong {
+			/*#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3185,7 +3192,7 @@
 
 			#header .logo:active strong {
 				background-color: #53e3fb;
-			}
+			}*/
 
 		#header nav {
 			display: -moz-flex;
@@ -3407,7 +3414,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("http://i.imgur.com/sIGD3.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3504,14 +3511,14 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: .85em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					/*text-transform: uppercase;*/
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3628,6 +3635,7 @@
 
 			#main > *:first-child {
 				border-top: 0;
+				/*height: 100vh;*/
 			}
 
 			#main > * > .inner {
@@ -3785,7 +3793,8 @@
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			/*padding: 4em 0 2em 0 ;*/
+			padding: 1em 0;
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
@@ -3794,7 +3803,8 @@
 			@media screen and (max-width: 736px) {
 
 				#wrapper > * > .inner {
-					padding: 3em 0 1em 0 ;
+					/*padding: 3em 0 1em 0 ;*/
+					padding: 1em 0 ;
 					width: calc(100% - 3em);
 				}
 
@@ -3986,3 +3996,33 @@
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+/*===================custom code======================*/
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.custom-logo {
+	height: 130px;
+}
+
+.avatar {
+	max-width: 120px;
+	border-radius: 50%;
+}
+
+.osprey-landing-img {
+	display: flex;
+	justify-content: center;
+	max-width: 1000px;
+}
