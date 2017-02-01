@@ -3511,14 +3511,14 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: .85em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					/*text-transform: uppercase;*/
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
