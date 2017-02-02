@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/howdycrystalm/portfolio#readme",
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "^4.14.1"
   }
 }
