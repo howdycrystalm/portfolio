@@ -3415,7 +3415,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("/images/center-kitty4.jpg");
+		/*background-image: url("/images/center-kitty4.jpg");*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4006,6 +4006,7 @@
 
 
 /*================================== custom code ==============================================*/
+
 
 .center {
 	display: flex;
