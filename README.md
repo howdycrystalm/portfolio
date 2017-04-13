@@ -13,10 +13,11 @@ Technologies used for projects presented in portfolio
 * HTML/SASS
 * Gulp
 * Git/Github
+* Illustrator
 
 ## Acknowledgments
 
-Thanks to HTML5 UP for the beautiful template.  It looks great, and was easy to customize to suite my needs.
+Thanks to HTML5 UP for the beautiful template.  It looks great, and was easy to customize to suit my needs.
 
 Forty by HTML5 UP
 html5up.net | @ajlkn
