@@ -13,6 +13,7 @@ Technologies used for projects presented in portfolio
 * HTML/SASS
 * Gulp
 * Git/Github
+* Illustrator
 
 ## Acknowledgments
 
