@@ -6,7 +6,7 @@ Here's my portfolio showcasing my personal projects, Orderhound.net and FetchPet
 
 Technologies used for projects presented in portfolio
 * Javascript
-* Angular
+* AngularJS
 * Node.js
 * Express
 * postgreSQL
